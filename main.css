@@ -14,14 +14,16 @@ body {
     background-position: center;    
     background-size: 160vh;
     background-repeat: no-repeat;
+    
 }
 
 .logo {
     display: flex;
+    flex-wrap: wrap;
     flex: 1;
     padding: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 52px;
+    font-size: 62px;
     background-color: rgba(0, 0, 0, 0.356);
     justify-content: center;
     gap: 10px;
@@ -29,10 +31,10 @@ body {
 }
 
 .logo > img {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     padding: 0px;
-       
+    filter: blur(0.5px);
 }
 
 .panel-image > img {
@@ -76,10 +78,9 @@ body {
     box-shadow: inset 0px 7px 8px 0px rgba(0, 0, 0, 0.266);
  }
 
- form {
+ 
 
-
- }
+ 
 
  fieldset {
     border: none;
@@ -106,4 +107,15 @@ body {
     background-color: blanchedalmond;
     font-size: 16px;
     text-align: center;
+ }
+
+ .login {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    
+ }
+
+ .login > a {
+    text-decoration: none;
+    color: rgb(221, 144, 2);
  }
